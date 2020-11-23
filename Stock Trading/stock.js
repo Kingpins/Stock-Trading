@@ -8,7 +8,7 @@ function CallAPI(){
 	symbol = symbol.toUpperCase();
 	companyRealStockPrice();
 	getRequest(
-	'https://www.financialmodelingprep.com/api/v3/historical-chart/15min/' + symbol + "?apikey=4ad251cf162323d71a13235961f16528",
+	'https://www.financialmodelingprep.com/api/v3/historical-chart/15min/' + symbol + "?apikey=<GET YOUR API KEY>",
 	drawOutput);
 }
 
